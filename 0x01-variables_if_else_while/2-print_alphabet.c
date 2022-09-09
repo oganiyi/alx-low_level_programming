@@ -3,7 +3,6 @@
 /**
  * main - Entry point
  * Description - Prints the alphabetic
- * 
  * Return: Always 0 (Success)
 */
 
