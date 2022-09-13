@@ -13,7 +13,7 @@ void times_table(void)
 	{
 		for (k = 0; k <= 9; k++)
 		{
-			product = j * k;
+			int product = j * k;
 
 			if (k == 0)
 			{
