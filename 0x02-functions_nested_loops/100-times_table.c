@@ -23,8 +23,8 @@ void print_times_table(int n)
 				{
 					_putchar(product + '0');
 				}
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 				if (j > 0 && product < 10)
 				{
 					_putchar(' ');
