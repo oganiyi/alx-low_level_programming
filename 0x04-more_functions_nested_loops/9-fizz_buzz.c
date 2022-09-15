@@ -2,7 +2,7 @@
 
 /**
  * main - fizbuzz task
- * Rescription: print fizz and buzz for mutliples of
+ * Description: print fizz and buzz for mutliples of
  * 3 and 5 and prints fizbuzz for both
  * Return: 0 (Always success)
  */
