@@ -14,22 +14,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-char *dest_end = dest;
-int src_len = 0;
+	int i, j;
 
-while (*dest_end)
-++dest_end;
-
-while (src_len < n && src[src_len])
-++src_len;
-
-if (src + src_len < dest || dest_end + src_len < src)
-{
-while (src_len--)
-*dest_end++ = *src++;
-*dest_end = '\0';
-
-}
-return (dest);
+	i = 0;
+	while (dest[i] != '\0')
+		++i;
+	j = 0;
+	while (src[j] != '\0' && j < n)
+	{
+		dest[i] = src[j];
+		++j;
+		++i;
+	}
+	return (dest);
 
 }
